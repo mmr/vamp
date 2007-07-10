@@ -1,0 +1,95 @@
+/* $Id: vamp.css,v 1.17 2004/04/12 00:34:26 mmr Exp $ */
+body, td {
+  color:  #fff;
+  background-color: #000;
+  font-family:  verdana, helvetica, sans-serif;
+  font-size:    10pt;
+  font-weight:  normal;
+  font-style:   normal;
+  text-decoration:  none;
+  text-align:       center;
+  vertical-align:   top
+}
+
+form  {margin: 0pt 0pt 0pt 0pt; padding: 0pt 0pt 0pt 0pt}
+
+hr    {color:   #fff; width: 100%; height: 1pt}
+img   {border:  0pt; vertical-align: middle}
+
+/* Tables */
+table {border-collapse: collapse}
+table td {text-align: left; vertical-align: top; padding: 2pt 2pt 2pt 2pt}
+
+td.login_box {border: 1pt solid #fff }
+table.game_box {
+  background-color: #fff;
+  border: 1pt solid #fff;
+  width:  450px
+}
+
+/* Form */
+input.i_text, input.i_button,
+select.i_select {background: #000; color: #d00}
+input.i_button  {font-weight: bold}
+td.formitem   {font-weight: bold; text-align: left}
+td.title_box  {background:#700; color:#fff; font-size: 15px; font-weight: bold; border: 1px solid #fff}
+
+/* Returned messaged */
+table.retbox {border: 1pt solid #fff; width: 450px}
+table.retbox td {padding: 0pt 0pt 0pt 0pt}
+td.retsuccess, div.retsuccess {color: #fff}
+td.retfizzles, div.retfizzles {color: #f00}
+
+/* Link */
+a:link, a:visited, a:active, a:hover {text-decoration: underline}
+a:link, a:visited {color: #c00}
+a:active, a:hover {color: #f11; text-decoration: none}
+a.progname:link,    a.progname:visited,
+a.progname:active,  a.progname:hover  {font-size: 20pt; text-decoration: none}
+
+/* Main */
+div.main  {width: 450px; margin: auto auto; vertical-align: middle; text-align: center}
+
+/* Status Bar */
+div.status  {width: 100%; text-align: right; margin-bottom: 10pt}
+
+/* Map */
+table.map_top, table.map_map, table.map_bottom  {width: 100%; margin: auto auto}
+table.map_map {
+  border-collapse: separate;
+  border: 1pt solid #fff;
+  height: 350px
+}
+table.map_top td {text-align: left;  padding-bottom: 2pt}
+table.map_map td {text-align: center; vertical-align: top; padding-top: 2pt}
+table.map_bottom  td {text-align: right}
+
+/* Squares */
+td.map_out, td.map_building, td.map_street {width: 33%; height: 33%}
+td.map_out      {background:#00a; border: 2pt solid #00b}
+td.map_building {background:#000; border: 1pt solid #fff}
+td.map_street   {background:#555; border: 1pt solid #444}
+
+span#map_action_points  {text-align:left}
+
+span.map_street_junction  {background:#072; font-weight: bold; border: 1pt solid #fff}
+span.map_npc, span.map_player, span.map_my_player {background:none}
+span.map_my_player {font-weight: bold}
+span.map_building_pub,  span.map_building_bank,
+span.map_building_shop, span.map_building_guild {border: 1pt solid #fff; font-weight: bold; width: 70%}
+
+span.map_building_pub   {background: #707}
+span.map_building_bank  {background: #007}
+span.map_building_shop  {background: #770}
+span.map_building_guild {background: #700}
+div.map_more_commands   {text-align: right; margin-top:0pt}
+
+div.map_text {text-align: left};
+
+a.map_action {color: #fff}
+a.map_action:link,   a.map_action:visited,
+a.map_action:active, a.map_action:hover {color: #fff}
+
+/* Misc */
+.c {text-align: center}
+.debug {text-align: left; font-family: mono}
